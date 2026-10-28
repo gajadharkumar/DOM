@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}html,body{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+main{
+    height: 70%;
+    width: 30%;
+    position: relative;
+    border: 2px solid white;
+    border-radius: 20px;
+ padding: 15px;
+
+}button{
+    background-color: white;
+    color: black;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+
+}.box{
+    position: absolute;
+    height: 48px;
+    border-radius: 10px;
+    width: 48px;
+    background-color: red;
+    cursor: pointer;
+   
+}.top p{
+    color: white;
+}.overlay{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: rgba(0, 0, 0, 0.276);
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+   
+}
